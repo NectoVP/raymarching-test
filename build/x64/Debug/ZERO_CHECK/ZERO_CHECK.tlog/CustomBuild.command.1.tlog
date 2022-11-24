@@ -1,0 +1,10 @@
+^C:\USERS\VLAD\SOURCE\REPOS\15T\BUILD\CMAKEFILES\8F8844F6D8C73D062C28A7C75AE8D7E1\GENERATE.STAMP.RULE
+setlocal
+D:\cmake\bin\cmake.exe -SC:/Users/Vlad/source/repos/15t -BC:/Users/Vlad/source/repos/15t/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Vlad/source/repos/15t/build/Tiles.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,3 @@
+C:/Users/Vlad/source/repos/15t/build/CMakeFiles/Tiles.dir
+C:/Users/Vlad/source/repos/15t/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Vlad/source/repos/15t/build/CMakeFiles/ZERO_CHECK.dir
