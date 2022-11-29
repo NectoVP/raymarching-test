@@ -4,7 +4,7 @@ project(Tiles)
 
 find_package(SFML COMPONENTS graphics window system REQUIRED)
 
-set(SOURCES main.cpp test.jpg calibri.ttf)
+set(SOURCES main.cpp)
 
 add_executable(Tiles ${SOURCES})
 
